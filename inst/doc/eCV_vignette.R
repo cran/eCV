@@ -1,10 +1,9 @@
 ## ---- include = FALSE---------------------------------------------------------
 knitr::opts_chunk$set(collapse = TRUE,
-                      comment = NA)
+                      comment = FALSE)
 
 ## ---- eval = FALSE------------------------------------------------------------
-#  # install.packages("remotes")
-#  remotes::install_github("eclipsebio/eCV")
+#  install.packages("eCV")
 
 ## ---- results='hide'----------------------------------------------------------
 library("eCV")
